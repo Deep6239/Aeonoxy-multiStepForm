@@ -1,7 +1,7 @@
 export const RightPlace = () => {
     return(
         <div>
-            <div className="grid grid-rows-2 md:grid-cols-2 justify-evenly h-full my-10">
+            <div className="grid md:grid-cols-2 justify-evenly h-full">
                 <div className="flex justify-center items-center">
                     <img 
                         className="px-10 h-72"

@@ -3,7 +3,7 @@ import StarRatings from "react-star-ratings"
 export const OnWay = () => {
     return(
         <div className="flex flex-col justify-between mb-12">
-            <div className="grid grid-rows-2 md:grid-cols-2 justify-evenly h-full gap-3">
+            <div className="grid md:grid-cols-2 justify-evenly h-full gap-3">
                 <div className="flex justify-center items-center h-full">
                     <img 
                         className="px-10"
