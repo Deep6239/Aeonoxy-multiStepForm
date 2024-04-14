@@ -31,7 +31,7 @@ export const MathLevel = () => {
                 </h4>
             </div>
             <div className="flex flex-wrap gap-3 mb-4 md:flex-nowrap mx-auto">
-                <div className="mx-auto md:mx-0 flex flex-wrap gap-2 mb-4">
+                <div className="mx-auto md:mx-0 flex justify-center flex-wrap gap-2 mb-4">
                     {Data.map((item) => (
                         <Card
                             key={item.topic}
