@@ -11,7 +11,7 @@ export const LearningPath = () => {
                     Choose one to get started. You can always change this later.
                 </h4>
             </div>
-            <div className="flex gap-2">
+            <div className="flex gap-2 flex-col md:flex-row">
                 <LearningPathCard isPopular={true} title={'Foundational Math'}/>
                 <LearningPathCard isPopular={false} title={'Mathematical thinking'}/>
             </div>

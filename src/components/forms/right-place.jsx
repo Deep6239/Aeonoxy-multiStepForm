@@ -10,7 +10,7 @@ export const RightPlace = () => {
                     />
                 </div>
                 <div className="flex flex-col justify-center items-center h-full">
-                    <h1 className="text-3xl font-bold leading-3 w-full my-4">
+                    <h1 className="text-3xl font-bold md:leading-3 w-full my-4 ">
                         You're in the right place!
                     </h1>
                     <p>

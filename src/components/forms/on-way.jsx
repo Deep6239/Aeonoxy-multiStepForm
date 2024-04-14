@@ -12,7 +12,7 @@ export const OnWay = () => {
                     />
                 </div>
                 <div className="flex flex-col justify-center items-center h-full">
-                    <h1 className="text-3xl font-bold leading-3 w-full my-12">
+                    <h1 className="text-3xl font-bold md:leading-3 w-full my-12">
                         You're on your way!
                     </h1>
                     <div className="w-full mb-4">

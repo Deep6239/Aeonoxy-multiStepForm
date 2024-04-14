@@ -32,7 +32,7 @@ export const Form = () => {
     return(
         <div className="flex flex-col mx-auto min-h-screen h-screen p-8 my-auto lg:w-[1200px]">
             <div className="flex items-center">
-                <div onClick={preStep} className={`${step <=1 ? 'hidden' : ''} ${step >= 5 ? 'hidden' : ''}`}>
+                <div onClick={preStep} className={`${step <=1 ? 'hidden' : ''} ${step >= 6 ? 'hidden' : ''}`}>
                     <BiChevronLeft />
                 </div>
                 <div className="flex-1 self-center">

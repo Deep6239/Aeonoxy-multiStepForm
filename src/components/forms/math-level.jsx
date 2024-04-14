@@ -26,7 +26,7 @@ export const MathLevel = () => {
                 <h1 className=" flex justify-center text-3xl font-bold mb-3">
                     What is your math comfort level?
                 </h1>
-                <h4 className=" flex justify-center mb-8 text-gray-500 whitespace-nowrap">
+                <h4 className=" flex justify-center mb-8 text-gray-500 md:whitespace-nowrap">
                     Choose the highest level you feel confident in. You can always change this later.
                 </h4>
             </div>

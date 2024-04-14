@@ -37,7 +37,7 @@ export const Interest = () => {
             <h1 className="flex justify-center text-3xl font-bold">
                 Which are you most interested in?
             </h1>
-            <h4 className="flex justify-center mb-8 text-gray-500 whitespace-nowrap">
+            <h4 className="flex justify-center mb-8 text-gray-500 md:whitespace-nowrap">
             Choose just one.This will help us to get you started (but won't limit your experience )
             </h4>
             <div className="flex flex-col gap-2 mx-auto">

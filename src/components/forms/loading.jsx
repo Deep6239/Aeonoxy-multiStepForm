@@ -6,9 +6,9 @@ export const Loading = () => {
             <div>
                 <FaRegCircle className="h-20 w-20 text-yellow-400"/>
             </div>
-            <div className="text-2xl flex flex-col justify-center items-center">
-                <p>Finding learning path recommendations for you based</p>
-                <p>on your responses.</p>
+            <div className="text-2xl flex flex-col text-center justify-center items-center m-5">
+                <p className="flex-wrap">Finding learning path recommendations for you based <span className="md:hidden">on your responses.</span></p>
+                <p className="hidden md:flex">on your responses.</p>
             </div>
         </div>
     )
